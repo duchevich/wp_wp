@@ -1,0 +1,54 @@
+.button{
+
+}
+.button.m-tr{
+
+}
+.button.m-yel{
+
+}
+.input{
+
+}
+.textarea{
+    
+}
+.submit{
+
+}
+
+.wpcf7-acceptance input{
+    display: none;
+}
+.wpcf7-acceptance label{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 33px;
+    position: relative;
+    cursor: pointer;
+}
+/* .wpcf7-acceptance .form-checkboxLabel.m-first{
+    margin-top: 16px;
+} */
+.wpcf7-acceptance .wpcf7-list-item-label:before{
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}
+.wpcf7-acceptance input:checked + .wpcf7-list-item-label:after{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ffc700;
+    position: absolute;
+    left: 2px;
+    top: 4px;
+}
+.wpcf7-acceptance span.wpcf7-list-item {
+    margin: 0;
+}
