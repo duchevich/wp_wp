@@ -1,4 +1,4 @@
-jQuery( document ).ready(function( $ ) {
+$( document ).ready(function() {
 	console.log('aaa');
 
 	// $(".slick").slick() 
@@ -27,21 +27,16 @@ jQuery( document ).ready(function( $ ) {
 	// });
 
 /*---- Слайдеры ----*/
-// $('.slider').slick({
-//     dots: true,
-//     arrows: false,
-//     autoplay: true,
-//       autoplaySpeed: 4000
-// });
+$('.slick').slick();
 
 /*---- Маска ввода номера телефона ----*/
 //     $("input[type=tel]").inputmask('38 (999) 999-99-99');
 
 /*---- Модальные окна ----*/
-// $('#myModalButton').click(function(e){
-//     e.preventDefault();
-//     $("#myModal").modal('show');
-// });
+$('body').click(function(e){
+    e.preventDefault();
+    $("#headerModal").modal('show');
+});
 
 /*---- ContactForm 7 ----*/
 // document.addEventListener( 'wpcf7mailsent', function( event ) {
